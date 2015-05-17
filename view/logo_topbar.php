@@ -10,7 +10,7 @@
 </nav>
 <div class="row">
   <div class="large-3 columns">
-    <h1><img src="../img/logo_obs.jpg"/></h1>
+    <h1><img src="../img/logo2.gif"/></h1>
   </div>
 
 </div>
