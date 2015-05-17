@@ -3,6 +3,7 @@
 <html class="no-js" lang="en" >
 
 <head>
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
   <meta charset="utf-8">
   <!-- If you delete this meta tag World War Z will become a reality -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
