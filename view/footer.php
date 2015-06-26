@@ -14,7 +14,7 @@
               </ul>
             </div>
           </div>
-        </div> 
+        </div>
       </footer>
   <script src="../js/vendor/jquery.js"></script>
   <script src="../js/foundation.min.js"></script>

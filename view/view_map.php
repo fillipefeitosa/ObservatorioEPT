@@ -8,45 +8,46 @@
 
 ?>
 
-	<div class="row">
+	<div class="row fullWidth">
+
+		<div class="large-12 columns">
 
 
 
-		<div class="large-9 push-3 columns">
-
-			<h3>Observatório da Educação Profissional e Tecnológica </br>
-			<small>Uma ferramenta de acompanhamento da EPT no Brasil</small></h3>
-			<p>
 
 				<?php
 					switch($mapDesc){
 						case "relacao_ifs":
-							echo "<iframe width='800' height='400' scrolling='no' frameborder='no' src='https://www.google.com/fusiontables/embedviz?q=select+col3+from+17iLYeOl9s2FXtTbNAJNJ3kJX18Z-kFfE_ua_5gPj&amp;viz=MAP&amp;h=false&amp;lat=-7.479365221253366&amp;lng=-45.933205825000016&amp;t=1&amp;z=4&amp;l=col3&amp;y=2&amp;tmplt=2&amp;hml=ONE_COL_LAT_LNG'></iframe>";
+							echo "<iframe width='1200' height='450' scrolling='no' frameborder='no' src='https://www.google.com/fusiontables/embedviz?q=select+col3+from+17iLYeOl9s2FXtTbNAJNJ3kJX18Z-kFfE_ua_5gPj&amp;viz=MAP&amp;h=false&amp;lat=-7.479365221253366&amp;lng=-45.933205825000016&amp;t=1&amp;z=4&amp;l=col3&amp;y=2&amp;tmplt=2&amp;hml=ONE_COL_LAT_LNG'></iframe>";
 						break;
 
 						case "heatmap":
-							echo "<iframe width='800' height='400' scrolling='no' frameborder='no' src='https://www.google.com/fusiontables/embedviz?q=select+col3+from+17iLYeOl9s2FXtTbNAJNJ3kJX18Z-kFfE_ua_5gPj+limit+1000&amp;viz=HEATMAP&amp;h=true&amp;lat=-14.559456373761329&amp;lng=-36.20182004999998&amp;t=1&amp;z=4&amp;l=col3&amp;y=3&amp;tmplt=3&amp;hmd=true&amp;hmg=%2366ff0000%2C%2393ff00ff%2C%23c1ff00ff%2C%23eeff00ff%2C%23f4e300ff%2C%23f4e300ff%2C%23f9c600ff%2C%23ffaa00ff%2C%23ff7100ff%2C%23ff3900ff%2C%23ff0000ff&amp;hmo=0.6&amp;hmr=25&amp;hmw=0&amp;hml=ONE_COL_LAT_LNG'></iframe>";
+							echo "<p>Não suportado</p>";
 						break;
 
-						case "pibXifs":
-							echo "Manutenção";
+						case "ifsXidmh":
+							echo "<iframe width='1200' height='450' scrolling='no' frameborder='no' src='https://www.google.com/fusiontables/embedviz?q=select+col3+from+17iLYeOl9s2FXtTbNAJNJ3kJX18Z-kFfE_ua_5gPj+where+col4+%3E%3D+0.701+and+col4+%3C%3D+1&viz=MAP&h=false&lat=-13.364412934434865&lng=-41.7744140625&t=1&z=4&l=col3&y=4&tmplt=4&hml=ONE_COL_LAT_LNG'></iframe>";
+						break;
+
+						case "ifsXpib":
+							echo "<iframe width='1200' height='450' scrolling='no' frameborder='no' src='https://www.google.com/fusiontables/embedviz?q=select+col3+from+17iLYeOl9s2FXtTbNAJNJ3kJX18Z-kFfE_ua_5gPj&viz=MAP&h=false&lat=-11.240162480776048&lng=-45.29849973749998&t=1&z=5&l=col3&y=7&tmplt=8&hml=ONE_COL_LAT_LNG'></iframe>";
+						break;
+
+						case "ifsXideb":
+							echo "<iframe width='1200' height='450' scrolling='no' frameborder='no' src='https://www.google.com/fusiontables/embedviz?q=select+col3+from+17iLYeOl9s2FXtTbNAJNJ3kJX18Z-kFfE_ua_5gPj&viz=MAP&h=false&lat=-19.639803261317486&lng=-38.94840208124998&t=1&z=4&l=col3&y=8&tmplt=9&hml=ONE_COL_LAT_LNG'></iframe>";
+						break;
+
+						case "pisa":
+							echo "<iframe width='1200' height='450' scrolling='no' frameborder='no' src='https://www.google.com/fusiontables/embedviz?q=select+col1+from+1-aQkofnDC0fqYRJJbZfIaBKEwKp8rMFRa-0YJ2Wv&viz=MAP&h=false&lat=-21.516577929439766&lng=-22.46689755&t=1&z=2&l=col1&y=2&tmplt=2&hml=ONE_COL_LAT_LNG'></iframe>";
 						break;
 					}
 				?>
 
-			</p>
-			<p>Aqui haverá uma descrição sucinta do projeto.</p>
-			<ul>Coisas que devem aparecer no menu ao lado.
-				<li>Sobre</li>
-				<li>Mapas -> submenus</li>
-				<li>Acesso à base de dados</li>
+
 
 		</div>
 
 
-		<?php
-			include_once('side_menus.php');
-		?>
 
 	</div>
 

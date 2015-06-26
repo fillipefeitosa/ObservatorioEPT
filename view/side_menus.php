@@ -3,13 +3,26 @@
 
     <ul class='side-nav'>
       <li>
-        <a href="#" data-dropdown="dropdownid1" data-options="align:right">Mapas</a>
+        <a href="#" data-dropdown="dropdownid1" data-options="align:right">Distribuição</a>
 
       <ul id="dropdownid1" class="f-dropdown" data-dropdown-content>
         <li>
           <a href="view_map.php?desc=relacao_ifs">Relação de Institutos Federais</a>
           <a href="view_map.php?desc=heatmap">Heatmap da Distruição de IF`s no Brasil</a>
           <a href="view_map.php?desc=pibXifs">Relação entre PIB Estadual e Distribuição de IF`s</a>
+        </li>
+      </ul>
+
+      </li>
+
+      <li>
+        <a href="#" data-dropdown="dropdownid1" data-options="align:right">Cruzamentos</a>
+
+      <ul id="dropdownid1" class="f-dropdown" data-dropdown-content>
+        <li>
+          <a href="">Relação de Institutos Federais</a>
+          <a href="">Heatmap da Distruição de IF`s no Brasil</a>
+          <a href="">Relação entre PIB Estadual e Distribuição de IF`s</a>
         </li>
       </ul>
 
@@ -34,6 +47,6 @@
 
 
 
-  
+
 
 </div>
