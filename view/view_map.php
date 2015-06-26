@@ -34,7 +34,7 @@
 						break;
 
 						case "ifsXideb":
-							echo "<iframe width='1200' height='450' scrolling='no' frameborder='no' src='https://www.google.com/fusiontables/embedviz?q=select+col3+from+17iLYeOl9s2FXtTbNAJNJ3kJX18Z-kFfE_ua_5gPj&viz=MAP&h=false&lat=-19.639803261317486&lng=-38.94840208124998&t=1&z=4&l=col3&y=8&tmplt=9&hml=ONE_COL_LAT_LNG'></iframe>";
+							echo "<iframe width='1200' height='450' scrolling='no' frameborder='no' src='https://www.google.com/fusiontables/embedviz?q=select+col3+from+17iLYeOl9s2FXtTbNAJNJ3kJX18Z-kFfE_ua_5gPj&viz=MAP&h=false&lat=-19.639803261317486&lng=-38.94840208124998&t=1&z=4&l=col3&y=9&tmplt=10&hml=ONE_COL_LAT_LNG'></iframe>";
 						break;
 
 						case "pisa":

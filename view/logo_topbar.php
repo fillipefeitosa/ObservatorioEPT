@@ -17,7 +17,7 @@
             <li><a href="view_map.php?desc=heatmap">Heatmap - Distribuição</a></li>
             <li><a href="view_map.php?desc=ifsXidmh">IF's e IDMH</a></li>
             <li><a href="view_map.php?desc=ifsXpib">IF's e PIB</a></li>
-            <li><a href="view_map.php?desc=ifXideb">IF's e IDEB</a></li>
+            <li><a href="view_map.php?desc=ifsXideb">IF's e IDEB</a></li>
           </ul>
     </li>
       <li class="has-dropdown">
