@@ -11,6 +11,10 @@
 	<div class="row full-Width">
 
 		<div class="large-12 columns">
+		
+		<div class="show-for-small-only">
+				<iframe width='470' height='450' scrolling='no' frameborder='no' src='https://www.google.com/fusiontables/embedviz?q=select+col3+from+17iLYeOl9s2FXtTbNAJNJ3kJX18Z-kFfE_ua_5gPj&amp;viz=MAP&amp;h=false&amp;lat=-7.479365221253366&amp;lng=-45.933205825000016&amp;t=1&amp;z=4&amp;l=col3&amp;y=2&amp;tmplt=2&amp;hml=ONE_COL_LAT_LNG'></iframe>		
+		</div>
 
 
 
